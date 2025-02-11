@@ -1,10 +1,5 @@
-from src.logger import logging
+from src.pipline.training_pipeline import TrainPipeline
 
-logging.debug("This is a debug message")
+pipeline = TrainPipeline()
 
-from src.exception import MyException
-import sys
-try:
-    a = 1/0
-except Exception as e:
-    raise MyException(e,sys) from e
+pipeline.run_pipeline()
