@@ -1,0 +1,2 @@
+[ 2025-02-11 10:22:32,387 ] root - DEBUG - This is a debug message
+[ 2025-02-11 10:22:32,392 ] root - ERROR - Error occured in pythonScript : [C:\Users\super\Desktop\DVC\project\demo.py] at Line number [8]: division by zero
